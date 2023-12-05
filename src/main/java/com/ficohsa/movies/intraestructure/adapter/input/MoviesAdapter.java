@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MoviesAdapter implements MoviesPort {
 
-  @Autowired private BusinessUseCase businessUseCase;
+  @Autowired
+  private BusinessUseCase businessUseCase;
 
   @Override
   public ResponseEntity<List<MoviesResponse>> findByName(String name) {

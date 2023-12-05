@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+movies,com.ficohsa.movies.intraestructure.adapter.input,MoviesAdapter,0,21,0,0,0,5,0,3,0,3
+movies,com.ficohsa.movies.domain.exceptions,ErrorMessage,0,9,0,0,0,1,0,2,0,2
+movies,com.ficohsa.movies.domain.exceptions,ErrorHandler,0,14,0,0,0,3,0,3,0,3
+movies,com.ficohsa.movies.domain.model,Movie.MovieBuilder,72,0,0,0,1,0,10,0,10,0
+movies,com.ficohsa.movies.domain.model,Movie,312,18,58,0,5,6,44,6,15,6
+movies,com.ficohsa.movies.application.input,MoviesPort,12,0,0,0,2,0,2,0,2,0
+movies,com.ficohsa.movies,MoviesApplication,5,3,0,0,2,1,1,1,1,1
+movies,com.ficohsa.movies.domain.factory,MovieFactory,0,18,0,0,0,8,0,1,0,1
+movies,com.ficohsa.movies.domain.service,BusinessUseCase,6,21,0,0,0,4,1,3,1,3
+movies,com.ficohsa.movies.domain.dto,MoviesResponse,57,3,0,0,8,1,12,1,12,1
+movies,com.ficohsa.movies.domain.dto,MovieResponse,24,46,0,0,1,9,6,9,6,9
+movies,com.ficohsa.movies.domain.dto,MovieResponse.MovieResponseBuilder,19,44,0,0,0,1,2,7,2,7
+movies,com.ficohsa.movies.domain.dto,MoviesResponse.MoviesResponseBuilder,54,0,0,0,1,0,8,0,8,0

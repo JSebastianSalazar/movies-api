@@ -22,6 +22,6 @@ public class ErrorHandler {
     @ExceptionHandler(value = MethodArgumentTypeMismatchException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public @ResponseBody ErrorMessage badRequest(MethodArgumentTypeMismatchException e) {
-        return new ErrorMessage("No es un id valido");
+        return new ErrorMessage("Not is valid id");
     }
 }
