@@ -13,7 +13,7 @@ CREATE TABLE MOVIE (
 INSERT INTO MOVIE (ID, NAME, OVERVIEW, STATUS, IMAGE, GENRES, AUTHOR)
 VALUES
     (1, 'John Wick', 'John Wick is an American neo-noir action thriller media franchise created by Derek Kolstad and centered on John Wick, a former hitman who is drawn back into the criminal underworld he had previously abandoned.',
-     true, 'https://github.com/JSebastianSalazar/movies-image/blob/main/image/unnamed.jpg', 'Drama, Action, Adverture', 'Derek Kolstad'),
+     true, 'https://raw.githubusercontent.com/JSebastianSalazar/movies-image/main/image/unnamed.jpg', 'Drama, Action, Adverture', 'Derek Kolstad'),
     (2, 'The Godfather', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
      true, 'https://raw.githubusercontent.com/JSebastianSalazar/movies-image/main/image/The%20Godfather.png', 'Crime, Drama', 'Francis Ford Coppola'),
     (3, 'The Dark Knight', 'When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.',
