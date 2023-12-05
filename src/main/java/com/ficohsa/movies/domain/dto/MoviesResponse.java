@@ -16,6 +16,7 @@ public class MoviesResponse {
     private String name;
     private boolean status;
     private String image;
+    private String author;
 
 
 }

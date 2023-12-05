@@ -13,6 +13,6 @@ import java.util.List;
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 
-    @Query("SELECT new com.ficohsa.movies.domain.dto.MoviesResponse(m.id, m.name, m.status, m.image)  FROM Movie m WHERE m.name LIKE %:name%")
+    @Query("SELECT new com.ficohsa.movies.domain.dto.MoviesResponse(m.id, m.name, m.status, m.image, m.author)  FROM Movie m WHERE m.name LIKE %:name%")
     List<MoviesResponse> findByName(@Param("name") String name);
 }
