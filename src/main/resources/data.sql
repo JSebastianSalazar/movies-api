@@ -12,6 +12,11 @@ CREATE TABLE MOVIE (
 
 INSERT INTO MOVIE (ID, NAME, OVERVIEW, STATUS, IMAGE, GENRES, AUTHOR)
 VALUES
-    (1, 'The Shawshank Redemption', 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.', true, 'shawshank.jpg', 'Drama', 'Frank Darabont'),
-    (2, 'The Godfather', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', true, 'godfather.jpg', 'Crime, Drama', 'Francis Ford Coppola'),
-    (3, 'The Dark Knight', 'When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.', true, 'dark_knight.jpg', 'Action, Crime, Drama', 'Christopher Nolan');
+    (1, 'John Wick', 'John Wick is an American neo-noir action thriller media franchise created by Derek Kolstad and centered on John Wick, a former hitman who is drawn back into the criminal underworld he had previously abandoned.',
+     true, 'https://github.com/JSebastianSalazar/movies-image/blob/main/image/unnamed.jpg', 'Drama, Action, Adverture', 'Derek Kolstad'),
+    (2, 'The Godfather', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
+     true, 'https://raw.githubusercontent.com/JSebastianSalazar/movies-image/main/image/The%20Godfather.png', 'Crime, Drama', 'Francis Ford Coppola'),
+    (3, 'The Dark Knight', 'When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.',
+     true, 'https://raw.githubusercontent.com/JSebastianSalazar/movies-image/main/image/The%20Dark%20Knight.png', 'Action, Crime, Drama', 'Christopher Nolan'),
+    (4, 'Harry potter', 'Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.',
+     true, 'https://raw.githubusercontent.com/JSebastianSalazar/movies-image/main/image/Harrypotter.png', 'Animation, Action, Fantasy', 'J. K. Rowling');
