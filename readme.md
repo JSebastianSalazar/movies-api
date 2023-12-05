@@ -2,7 +2,7 @@
 
 This project is a Movie API developed in Java with Spring Boot.
 
-## Clonar el Repositorio
+## Clone the repository
 
 You can clone the repository using the following command:
 
